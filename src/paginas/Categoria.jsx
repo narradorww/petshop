@@ -36,7 +36,7 @@ const Categoria = () => {
             className={`lista-categorias__categoria lista-categorias__categoria--${id}`}
             key={subcategoria}
           >
-            <Link to={`${url}/${subcategoria}`}>{subcategorias}</Link>
+            <Link to={`${url}/${subcategoria}`}>{subcategoria}</Link>
           </li>
         ))}
       </ul>
